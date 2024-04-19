@@ -1,0 +1,511 @@
+*{
+	box-sizing: border-box;
+	font-family: Montaga;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem 5%;
+}
+
+.navbar ul{
+	list-style-type: none;
+	margin: 0;
+	overflow: hidden;
+}
+
+.navbar ul a{
+	color: #000;
+	padding: 1rem 2rem;
+	display: block;
+	text-align: center;
+}
+
+.navbar ul #our-story{
+	color: #C6754D;
+}
+
+.navbar li{
+	float: left;
+}
+
+.navbar ul img{
+	display: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+.section1{
+	background-color: #F0CCBB;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5% 5%;
+}
+
+.section1-div{
+	width: ;
+}
+
+/*.section1-img{
+	width: 35%;
+}*/
+
+.section1-div h1{
+	font-size: 5rem;
+	font-weight: 400;
+	line-height: 6.16rem;
+}
+
+.section1-div p{
+	font-size: 1.5rem;
+	font-weight: 400;
+	line-height: 2.1rem;
+	padding: 2% 0 4% 0;
+}
+
+.section1-div a{
+	background-color: #C6754D;
+	border-radius: 16px;
+	color: #fff;
+	font-size: 1.1rem;
+	font-weight: 400;
+	padding: 2% 3%;
+}
+
+.section1-img1{
+	position: relative;
+	right: ;
+}
+
+.section1-img{
+	width: ;
+}
+
+.section1-img2{
+	position: absolute;
+	width: 16%;
+	top: 57%;
+	left: 83%;
+}
+
+.section1-img img,.section4-div img{
+	width: 100%;
+}
+
+.section2{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 4rem 5.5rem;
+	gap: 4rem;
+}
+
+.section2 h3{
+	font-size: 2.5rem;
+	font-weight: 400;
+	line-height: 2.5rem;
+	margin-bottom: 2rem;
+	width: 100%;
+}
+
+.section2 p{
+	font-size: 1.125rem;
+	font-weight: 400;
+	line-height: 1.8rem;
+	width: 100%;
+}
+
+.section2 p span{
+	font-size: 1.5rem;
+	line-height: 2.4rem;
+}
+
+.section51-img0 img{
+	display: none;
+}
+
+.section3{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+	padding: 4rem 5.5rem;
+	gap: 4rem;
+}
+
+.section3 .doc{
+	background-color: #C6754D;
+	color: #FFFFFF;
+	padding: 2rem 4rem;
+	position: absolute;
+	left: 50%;
+/*	top: 9%;*/
+	width: 45%;
+}
+
+.section3 h3{
+	font-size: 2.7rem;
+	font-weight: 400;
+	line-height: 2.7rem;
+	margin-bottom: 2rem;
+	width: 100%;
+}
+
+.section3 p{
+	font-size: 1.125rem;
+	font-weight: 400;
+	line-height: 1.8rem;
+	width: 100%;
+}
+
+.section3 .grp{
+	position: absolute;
+	z-index: 1;
+	left: 87%;
+	top: 18%;
+}
+
+.section4{
+	background-color: #97917A;
+	width: 100%;
+	height: 10%;
+	position: relative;
+}
+
+.section4 .grp2{
+	position: absolute;
+	left: 16rem;
+}
+
+.top-text{
+	color: #FCF9F7;
+	font-size: 1.125rem;
+	font-weight: 400;
+	line-height: 1.125rem;
+	position: absolute;
+	left: 38rem;
+	top: 6rem;
+}
+
+.wedding{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	gap: 1.5rem;
+	width: 87%;
+	margin: auto;
+	padding: 8rem 0 4rem 0;
+}
+
+.section4 .Groomsmen{
+	display: flex;
+	justify-content: space-between;
+	gap: 1.5rem;
+}
+
+.section4 .Bridesmaids{
+	display: flex;
+	justify-content: space-between;
+	gap: 1.5rem;
+}
+
+.section4-div{
+	width: 20%;
+}
+
+.section4 h3{
+	color: #FCF9F7;
+	font-size: 2.5rem;
+	font-weight: 400;
+	line-height: 2.5rem;
+	width: 100%;
+	text-align: center;
+	padding-bottom: 2rem;
+}
+
+.section4-div p{
+	color: #FCF9F7;
+	font-size: 2rem;
+	font-weight: 400;
+	line-height: 2rem;
+	width: 100%;
+	text-align: center;
+}
+
+.footer{
+	background-color: #FCF9F7;
+	font-size: 1.4rem;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    padding: 2.5% 0 2.5% 0;
+}
+
+@media (max-width:425px) and (min-width:320px){
+
+	.navbar{
+		display: flex;
+		justify-content: space-between;
+		padding: 1rem 1.25rem;
+	}
+
+	.navbar ul a{
+		color: #000;
+		padding: 0;
+		display: block;
+		text-align: center;
+	}
+
+	.navbar ul{
+		flex-direction: column;
+		display: unset;
+		float: clear;
+	}
+
+	.navbar ul img{
+		display: unset;
+		padding-top: 50%;
+	}
+
+	.navbar li{
+		display: none;
+	}
+
+	.section1{
+		background-color: #F0CCBB;
+		display: flex;
+		flex-direction: column;
+		gap: 32px;
+		justify-content: space-between;
+		align-items: center;
+		padding: 4% 1.25%;
+	}
+
+	.section1-div{
+		width: 90%;
+	}
+
+	.section1-div h1{
+		font-size: 2.5rem;
+		font-weight: 400;
+		line-height: 3rem;
+	}
+	
+	.section1-div p{
+		font-size: 1rem;
+		font-weight: 400;
+		line-height: 1.4rem;
+		padding: 2% 0 4% 0;
+	}
+
+	.section1-div a{
+		background-color: #C6754D;
+		border-radius: 16px;
+		color: #fff;
+		font-size: 1.1rem;
+		font-weight: 400;
+		padding: 3% 30%;
+	}
+
+	.section1-img2{
+		position: absolute;
+		width: 50%;
+		top: 39%;
+		left: 59%;
+	}
+
+	.ancor{
+		width: 100%;
+	}
+
+	.section1-img{
+		width: 80%;
+	}
+
+	.section1-img{
+		position: relative ;
+	}
+
+	.section1-img img,.section3-div img{
+		width: 100%;
+	}
+
+	.section2{
+		display: flex;
+		flex-direction: column;
+		gap: 24px;
+		justify-content: space-between;
+		align-items: center;
+		padding: 2.5rem 1.25rem;
+	}
+
+	.section2 h3{
+		font-size: 2rem;
+		font-weight: 400;
+		line-height: 2rem;
+		width: 100%;
+	}
+
+	.section2 p{
+		font-size: 1rem;
+		font-weight: 400;
+		line-height: 1.6rem;
+		width: 100%;
+	}
+
+	.section51-img0 img{
+		display: unset;
+	}
+
+	.section51-img0{
+		width: 100%;
+	}
+
+	.section51-img0 img{
+		width: 100%;
+	}
+
+/*	this is the section 3 part*/
+
+
+	.section3{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		position: relative;
+		padding: 4rem 5.5rem;
+		height: 28rem;
+	}
+
+	.section3-img{
+		width: 50%;
+	}
+
+	.section3-img .img58{
+		position: absolute;
+		left: 0rem;
+		top: 12.6rem;
+		width: 100%;
+	}
+
+	.section3 .doc{
+		background-color: #C6754D;
+		color: #FFFFFF;
+		padding: 1.03rem 1rem;
+		left: 0.5rem;
+		top: 6%;
+		width: 96%;
+	}
+
+	.section3 h3{
+		font-size: 1.5rem;
+		font-weight: 400;
+		line-height: 1.5rem;
+		margin-bottom: 2rem;
+		width: 100%;
+	}
+
+	.section3 p{
+		font-size: 1rem;
+		font-weight: 400;
+		line-height: 1.6rem;
+		width: 100%;
+	}
+
+	.section3 .grp{
+		position: absolute;
+		left: 85%;
+		top: 13%;
+		width: 15%;
+	}
+
+	.grp img{
+		width: 100%;
+	}
+
+/*	this is the wedding party mobile design part*/
+
+	.section4 .grp2{
+		position: absolute;
+		left: 3.3rem;
+		width: 40%;
+	}
+
+	.grp2 img{
+		width: 100%;
+	}
+
+	.top-text{
+		position: absolute;
+		left: 30%;
+		top: 3%;
+	}
+
+	.top-text p{
+		color: #FCF9F7;
+		font-size: 1.125rem;
+		font-weight: 400;
+		line-height: 1.125rem;
+	}
+
+	.wedding{
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		margin-top: 1rem;
+	}
+
+	.section4 .Groomsmen{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		gap: 1.5rem;
+	}
+
+	.section4 .Bridesmaids{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		gap: 1.5rem;
+	}
+
+	.section4-div{
+		width: 100%;
+	}
+
+	.section4 h3{
+		color: #FCF9F7;
+		font-size: 2rem;
+		font-weight: 400;
+		line-height: 2rem;
+		width: 100%;
+		text-align: center;
+		padding-bottom: 1.5rem;
+	}
+
+	.section4-div p{
+		color: #FCF9F7;
+		font-size: 2rem;
+		font-weight: 400;
+		line-height: 2rem;
+		text-align: center;
+		width: 100%;
+	}
+
+	.footer{
+		background-color: #FCF9F7;
+		font-size: 1rem;
+	    font-weight: 400;
+	    display: flex;
+	    justify-content: center;
+	    padding: 2.5rem;
+	    margin: 0;
+	}
+}
